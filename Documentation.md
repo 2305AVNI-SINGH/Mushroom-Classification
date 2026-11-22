@@ -1,4 +1,5 @@
 # Project Documentation: Mushroom Classification
+# Project Documentation: Mushroom Classification
 
 **Author:** Avni Singh
 **Dataset:** Mushroom Classification (UCI Machine Learning Repository, via Kaggle)
@@ -52,7 +53,6 @@ mushroom-classification/
 ├── .gitignore             Files excluded from Git
 ├── data/
 │   └── mushrooms.csv      The dataset (small, so it is included)
-├── images/                Plots used in the README
 ├── notebooks/
 │   └── mushroom_classification.ipynb   EDA, experiments and plots
 ├── src/
@@ -248,7 +248,7 @@ The dashboard needs `data/mushrooms.csv` and `outputs/model.pkl`. If either is m
 10. Robustness check
 11. Save the model, results and plots (in Colab, the plots are downloaded as zip files)
 
-The plots are saved to an `images/` folder, which you upload to the repository for the README.
+The plots are saved to an `images/` folder. Uploading them to the repository is optional.
 
 ## 10. Assumptions and limitations
 
@@ -266,7 +266,6 @@ The plots are saved to an `images/` folder, which you upload to the repository f
 | `FileNotFoundError: ... mushrooms.csv` | Put the file in `data/`, or pass `--data_path` with the correct path |
 | Dashboard says "Data or model not found" | Run `python src/train.py --data_path data/mushrooms.csv` first, from the project root |
 | `ModuleNotFoundError` for `streamlit` or `sklearn` | Run `pip install -r requirements.txt` |
-| Images do not show in the README | File names are case-sensitive and must match the paths in the README |
 | Streamlit does not open in Google Colab | Run the dashboard on a local computer, or use the plots from the notebook |
 
 ## 12. Future improvements
@@ -665,3 +664,12 @@ venv/
 # OS
 .DS_Store
 ```
+
+
+
+
+
+  
+   
+ 
+ 
