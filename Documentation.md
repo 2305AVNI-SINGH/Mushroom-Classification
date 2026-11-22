@@ -1,5 +1,4 @@
 # Project Documentation: Mushroom Classification
-# Project Documentation: Mushroom Classification
 
 **Author:** Avni Singh
 **Dataset:** Mushroom Classification (UCI Machine Learning Repository, via Kaggle)
