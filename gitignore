@@ -1,0 +1,13 @@
+# Trained models and generated outputs
+*.pkl
+outputs/
+
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# OS
+.DS_Store
