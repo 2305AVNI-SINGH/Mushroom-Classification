@@ -5,7 +5,7 @@
 
 - **Intern ID:** CIS69
 - **Full Name:** Avni Singh
-- **No. of Weeks:** 7 days(1 week)
+- **No. of Weeks:** 1 week
 - **Project Name:** Mushroom Classification
 - **Project Scope:** Classify mushrooms as edible or poisonous from 22 physical features, covering data cleaning, EDA and visualization, model comparison, evaluation focused on dangerous mistakes (missed poisonous mushrooms), a robustness check, and an interactive prediction dashboard.
 
@@ -51,11 +51,6 @@ The test set has 842 edible and 783 poisonous mushrooms. The best model (**Rando
 | Random Forest (without odor) | 1.0000 | 1.0000 | 0 |
 | Decision Tree (odor only) | 0.9858 | 0.9706 | 23 |
 
-![Class balance](images/class_balance.png)
-![Poisonous rate by odor](images/poisonous_rate_by_odor.png)
-![Confusion matrix](images/confusion_matrix.png)
-![Feature importance](images/feature_importance.png)
-
 ## Key findings
 
 - **Class balance:** about 52% edible and 48% poisonous, so accuracy is a fair metric here, but recall for the poisonous class matters most.
@@ -89,8 +84,6 @@ streamlit run app.py
 
 Run the training step first, because the dashboard loads the saved model from `outputs/`.
 
-![Dashboard screenshot](images/dashboard.png)
-
 ## Project structure
 
 ```
@@ -98,7 +91,6 @@ mushroom-classification/
 ├── data/
 │   └── mushrooms.csv
 ├── app.py                 (Streamlit dashboard)
-├── images/                (plots used in this README)
 ├── notebooks/
 │   └── mushroom_classification.ipynb
 ├── src/
